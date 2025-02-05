@@ -34,7 +34,7 @@ public class ScoreManager : MonoBehaviour
         {
             lives--; // Decrease lives
             livesText.text = "Lives: " + lives; // Update UI text
-            ball.gameObject.transform.position = new Vector3(3.7f, 1.6f, 0.03f); // Reset ball position
+            ball.gameObject.transform.position = new Vector3(-3.6f, 1.6f, 0.03f); // Reset ball position
         }
         else
         {
